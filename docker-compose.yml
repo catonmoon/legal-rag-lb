@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  arlc-eval:
+    build: .
+    ports:
+      - "7861:7861"
+    environment:
+      - XAI_API_KEY=${XAI_API_KEY}
+      - EVAL_MODEL=${EVAL_MODEL:-grok-4-1-fast-non-reasoning}

@@ -1,0 +1,6 @@
+docs_final/
+docs_final_md_fast/
+__pycache__/
+*.pyc
+uploads/
+*.log
